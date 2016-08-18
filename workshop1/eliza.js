@@ -29,29 +29,31 @@
 
 var rules = {
   "~*x hello ~*y": [
-    "How do you do. Please state your problem."
-  ],
+    "Heyyyy, hahah what's up? What's your sign???."
+    ],
+     "~*x virgo ~*y": [
+     	"OMG, my ex was a virgo. What an asshole! but you seem cool, haha!!!!", 
+    ],
+     
   "~*x computer ~*y": [
-    "Do computers worry you?",
-    "What do you think about machines have to do with your problem?",
-    "Don't you think computers can help people",
-    "Why do you mention computers?",
-    "What about computers worries you?",
-    "What do you think about computers?",
-    "What do you think machines have to do with your problem?",
+    "Hey haha my computer is actually broken?? It's like, not turning on and stuff.",
+    "Do you know when the new, like, Apple update is coming out?",
+    "Wow haha, you have a computer? That's, like, so crazy, I AM a computer! haha!",
+    "Computers? I was like, really into that stuff a while ago, haha...",
+    "......",
   ],
   "~*x name ~*y": [
-    "I am not interested in names",
+    "That is SUCH a nice name!!!!",
   ],
   "~*x sorry ~*y": [
-    "Please don't apologize",
-    "Apologies are not necessary",
-    "What feelings do you have when you apologize",
+    "Aw babe, don't apologize, haha!!! You're TOTALLYYY fine. I promise!",
+    "Shut UP! It's so fine!!! Srsly bby!",
+    "Omg, stop lying to me, you're soooo not sorry!",
   ],
   "~*x I remember ~*y": [
-    "Do you often think of ~y?",
-    "Does thinking of ~y bring anything else to mind?",
-    "What else do you remember?",
+    "I THINK so, but like, I was soooo hungover. Can you tell again what ~y was?",
+    "OMG every time I think about ~y I like, die a little bit. Haha!",
+    "What? Haha...",
     "Why do you recall ~y right now?",
     "What in the present situation reminds you of ~y?",
     "What is the connection between me and ~y?",
@@ -63,13 +65,12 @@ var rules = {
     "You mentioned ~y",
   ],
   "~*x I want ~*y": [
-    "What would it mean if you got ~y?",
-    "Why do you want ~y?",
-    "Suppose you got ~y soon.",
+    "I totally feel, like I would die without ~y too you know?",
+    "Why do you want ~y? It's like, so out os season now. Haha!",
   ],
     "~*x I need ~*y": [
-    "What would it mean if you got ~y?",
-    "Why do you need ~y?",
+    "OMG saaaame!",
+    "What's so great about ~y?",
     "Suppose you got ~y soon.",
   ],
   "~*x if ~*y": [
